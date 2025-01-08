@@ -1,0 +1,111 @@
+.admin-addproducts {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .admin-filecon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 62px 20px;
+    background-image: radial-gradient(
+      circle,
+      #e11f28,
+      #870b0f,
+      #b2141b,
+      #7f090d,
+      #560000
+    );
+  }
+  
+  .admin-datacon {
+    background-image: linear-gradient(
+      120deg,
+      #ecc440,
+      #fffa8a,
+      #ddac17,
+      #ffff95
+    );
+  }
+  
+  .admin-filebtn {
+    border: none;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .admin-fileinp {
+    position: absolute;
+    top: 41px;
+    left: 20px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    color: black;
+    opacity: 0;
+  }
+  
+  .admin-inputs {
+    margin: 8px 15px;
+    padding: 4px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(205, 203, 203);
+  }
+  
+  .admin-inputs::placeholder {
+    color: black;
+  }
+  
+  .admin-inputs:focus {
+    border: 1px solid #7f090d;
+  }
+  
+  .admin-textar {
+    margin: 5px 15px;
+    padding: 4px;
+    width: 430px;
+    height: 70px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(205, 203, 203);
+  }
+  
+  .admin-textar::placeholder {
+    color: black;
+    text-align: center;
+  }
+  
+  .admin-add {
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-image: radial-gradient(
+      circle,
+      #870b0f,
+      #7f090d,
+      #560000
+    );
+    width: 160px;
+    height: 30px;
+    margin: 10px 35%;
+  }
+  
+  @media (width <= 768px) {
+    .admin-addproducts {
+      flex-direction: column;
+    }
+    .admin-filecon {
+      padding: 25px 115px;
+    }
+  }
+  
